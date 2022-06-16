@@ -41,7 +41,7 @@ export const defaultState = {
       lowBatteryColor: 'red',
       fontFamily: 'Helvetica',
       fontSize: 14,
-      showPercentage: true,
+      showPercentage: "%",
     },
     chargingFlash: {
       scale: undefined,

@@ -27,7 +27,7 @@ export type TGaugeCustom = {
     lowBatteryColor: ShapeStyles['fill'];
     fontFamily: string;
     fontSize: number;
-    showPercentage: boolean;
+    showPercentage: string;
   };
   chargingFlash: SVGProps<SVGPathElement> & {
     scale?: number;
